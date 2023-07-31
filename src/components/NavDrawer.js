@@ -45,7 +45,7 @@ const NavDrawer = () => {
         }}
       >
         <div className="logo">
-          <p>JB</p>
+          <p>Ray</p>
         </div>
 
         <IconButton onClick={() => setOpen(!open)}>
