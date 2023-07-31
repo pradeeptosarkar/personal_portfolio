@@ -69,8 +69,8 @@ const About = () => {
               challenge myself and make a positive impact.
             </Typography>
             <Typography sx={{ mt: 2, fontFamily: "sans-serif" }}>
-              In my free time, I enjoy watching movies, listening to music, and
-              writing tutorials.
+              In my free time, I enjoy watching documentaries, listening to music, and
+              exploring maps 🗺️.
             </Typography>
 
             <Box sx={{ mt: 2 }}>
