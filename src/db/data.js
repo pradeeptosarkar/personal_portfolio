@@ -47,7 +47,7 @@ const data = {
       project_image:
         "https://res.cloudinary.com/df5hitkbj/image/upload/v1690757594/WhatsApp_Image_2023-07-31_at_04.22.52_jelqox.jpg",
       project_tech:
-        "React, Redux, Node, Express, MongoDB, Bootstrap, React-Router",
+        "React, Redux, Node, Express, MongoDB, Bootstrap, React-Router, JSON Web Tokens",
       project_link: "https://github.com/pradeeptosarkar/social_media_app_frontend",
     },
     {

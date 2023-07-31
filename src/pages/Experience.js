@@ -25,11 +25,11 @@ const Experience = () => {
       }}
     >
       <Box sx={{ mx: { xs: 4 } }}>
-        <Typography variant="body1" component="h6" sx={{ color: "#ccd6f6" }}>
+        <Typography variant="h6" sx={{ mr: 2, color: "#ccd6f6" }}>
           <Typography variant="span" sx={{ color: "#64ffda" }}>
-            02.
+            02.{" "}
           </Typography>
-          Experince
+          Experience
         </Typography>
         <Typography
           variant="h4"

@@ -30,11 +30,9 @@ const Contact = () => {
   return (
     <Container id="contact" sx={{ px: { xs: 6, sm: 7, xl: 0 }, pl: { xl: 0 } }}>
       <Typography
-        variant="body1"
-        component="h6"
-        sx={{ color: "#64ffda", /* textAlign: "center" */ }}
+        variant="h6" sx={{ mr: 2, color: "#ccd6f6" }}
       >
-        <Typography variant="span">03.</Typography>
+        <Typography variant="span" sx={{ color: "#64ffda" }}>03. {" "}</Typography>
         What's Next?
       </Typography>
       <Typography
