@@ -7,11 +7,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 const data = {
   skills: [
     { name: "JavaScript" },
-    { name: "C++" },
     { name: "ExpressJS" },
     { name: "NodeJS" },
     { name: "Postman" },
-    { name: "Nodemon" },
     { name: "MongoDB" },
     { name: "mySQL" },
     { name: "ReactJS" },
