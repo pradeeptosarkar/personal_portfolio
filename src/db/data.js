@@ -3,6 +3,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import AlternateEmailIcon from "@mui/icons-material/AlternateEmail";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import InstagramIcon from "@mui/icons-material/Instagram";
+//import LeetCodeIcon from "./leetcode.svg";
 
 const data = {
   skills: [
@@ -62,12 +63,11 @@ const data = {
   ],
   socials: [
     { name: <GitHubIcon />, link: "https://github.com/pradeeptosarkar" },
-    {
-      name: <LinkedInIcon />,link: "https://www.linkedin.com/in/pradeeptosarkar/",
-    },
+    { name: <LinkedInIcon />,link: "https://www.linkedin.com/in/pradeeptosarkar/",},
     { name: <AlternateEmailIcon />, link: "mailto:pradeeptosarkarmail@gmail.com" },
     { name: <TwitterIcon />, link: "https://twitter.com/pradeepto_src" },
     { name: <InstagramIcon />, link: "https://www.instagram.com/pradeeptosarkar" },
+    //{ name: <LeetCodeIcon />, link: "https://www.instagram.com/pradeeptosarkar" },
   ],
 };
 

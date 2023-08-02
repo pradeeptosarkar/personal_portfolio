@@ -165,22 +165,7 @@ const Contact = () => {
               Designed & Built by Pradeepto Sarkar
             </Link>
           </Typography>
-          {/* <Typography
-            variant="span"
-            className="card-icon"
-            sx={{ fontWeight: 300, fontSize: 14, mr: 2 }}
-          >
-            <StarOutlineIcon sx={{ fontSize: 16, mx: 0.5 }} />
-            56
-          </Typography>
-          <Typography
-            variant="span"
-            className="card-icon"
-            sx={{ fontWeight: 300, fontSize: 14 }}
-          >
-            <ForkRightIcon sx={{ fontSize: 16, mx: 0.5 }} />8
-          </Typography> */}
-        </Box>
+          </Box>
       </footer>
     </Container>
   );
