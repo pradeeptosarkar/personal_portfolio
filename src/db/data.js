@@ -29,6 +29,16 @@ const data = {
   ],
   projects: [
     {
+      project_name: "dotRead - GitHub Repository and Code Viewer",
+      project_live_link: "https://dotread.netlify.app/",
+      project_description:
+        "dotRead is web application to checkout multiple files of a GitHub repository without the need to download the code or forking it.",
+      project_image:
+        "https://res.cloudinary.com/df5hitkbj/image/upload/v1691074774/WhatsApp_Image_2023-08-03_at_20.28.13_kzoyhi.jpg",
+      project_tech: "React, GitHub GraphQL API, GitHub React Primer, Monaco Editor, React Query",
+      project_link: "https://github.com/pradeeptosarkar/dotRead",
+    },
+    {
       project_name: "NSCC BPIT Website",
       project_live_link: "https://nsccbpit.tech",
       project_description:
@@ -59,6 +69,7 @@ const data = {
       project_tech: "React, Redux, Node, Express, MongoDB, Bootstrap, React-Router, Firebase",
       project_link: "https://github.com/pradeeptosarkar/trello-clone",
     },
+
     
   ],
   socials: [
