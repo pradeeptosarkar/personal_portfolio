@@ -132,7 +132,7 @@ const About = () => {
           <img
             className="img slideanim"
             style={styles.img}
-            src="https://res.cloudinary.com/df5hitkbj/image/upload/v1690727832/WhatsApp_Image_2023-07-30_at_19.59.34_yrrmry.jpg"
+            src="https://res.cloudinary.com/df5hitkbj/image/upload/v1694777766/WhatsApp_Image_2023-09-15_at_17.03.25_kfepzc.jpg"
             width="100%"
             alt="profile"
           />
