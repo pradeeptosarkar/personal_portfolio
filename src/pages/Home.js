@@ -38,12 +38,14 @@ const Home = () => {
             Pradeepto Sarkar.
           </Typography>
           <Typography
+          className="typewriter"
             sx={{
               fontSize: {
-                xxs: "clamp(40px, 8vw, 50px)",
-                md: "clamp(2rem, 7vw, 4.3rem)",
+                xxs: "clamp(30px, 6vw, 40px)",
+                md: "clamp(1.6rem, 5vw, 3.7rem)",
+                default: "2rem",
               },
-              lineHeight: 0.9,
+              lineHeight: 1.1,
               mt: 1,
               fontWeight: 600,
               fontFamily: "sans-serif",
