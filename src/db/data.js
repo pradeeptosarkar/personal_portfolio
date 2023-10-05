@@ -28,6 +28,17 @@ const data = {
     
   ],
   projects: [
+
+    {
+      project_name: "dotPackages - NPM Packages Manager",
+      project_live_link: "https://dotpackages.netlify.app/",
+      project_description:
+        "dotPackages allows you to list and visualise all the NPM packages used in a project simply by entering the GitHub link of the repositiory. It lists out crucial pieces of information such as license, update status, and most importantly all the dependencies of the package.",
+      project_image:
+        "https://res.cloudinary.com/df5hitkbj/image/upload/v1696517283/WhatsApp_Image_2023-10-05_at_20.17.17_5c883065_xpc1ed.jpg",
+      project_tech: "React, GitHub GraphQL API, Tailwind CSS",
+      project_link: "https://github.com/pradeeptosarkar/dotpackages",
+    },
     {
       project_name: "dotRead - GitHub Repository and Code Viewer",
       project_live_link: "https://dotread.netlify.app/",
