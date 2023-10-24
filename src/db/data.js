@@ -33,10 +33,10 @@ const data = {
       project_name: "Taskify - Documentation and Productivity",
       project_live_link: "https://taskify-omega.vercel.app/",
       project_description:
-        "Taskify is a full-stack application built using Next.js, React, TypeScript and Tailwind CSS, which allows users to make and publish documents with ease. The authentication is handled using clerky and the database using convex",
+        "Taskify is a full-stack application built using Next.js, React, Convex Database, TypeScript and Tailwind CSS, which allows users to make and publish documents with ease. The authentication is handled using clerky and the database using convex",
       project_image:
         "https://res.cloudinary.com/df5hitkbj/image/upload/v1698061717/taskify_ss_cvmila.png",
-      project_tech: "Next.js, React.js, TypeScript, Tailwind CSS",
+      project_tech: "Next.js, React.js, Convex, TypeScript, Tailwind CSS",
       project_link: "https://github.com/pradeeptosarkar/taskify",
     },
     {
