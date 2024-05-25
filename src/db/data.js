@@ -45,7 +45,7 @@ const data = {
       project_description:
         "A full stack application to organize online/offline events, manage ticketing, guests, scheduling and related communications built using NextJS, Uploadthing, Prisma ORM and MongoDB.",
       project_image:
-        "https://asset.cloudinary.com/df5hitkbj/80559c3a40e9b603f6e50bb73690e8a0",
+        "https://res.cloudinary.com/df5hitkbj/image/upload/v1716612857/Untitled_ab5cfq.png",
       project_tech: "Next.js, MongoDB, Prisma, TypeScript, Uploadthing",
       project_link: "https://github.com/pradeeptosarkar/eventscale",
     },
