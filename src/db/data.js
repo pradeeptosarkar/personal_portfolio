@@ -80,12 +80,12 @@ const data = {
       project_link: "https://github.com/pradeeptosarkar/dotRead",
     },
     {
-      project_name: "NSCC BPIT Website",
-      project_live_link: "https://nsccbpit.tech",
+      project_name: "The nameSpace Community Website",
+      project_live_link: "https://namespacecomm.in",
       project_description:
-        "Built the website for Newton School Coding Club, BPIT, the community I founded at my university with over 2000 active members. It features a carousel for team members, event photos, a page for all the members of the society and an events page.",
+        "Built the website for nameSpace (formerly NSCC BPIT), the community I founded at my university with over 3000 active members. It features a carousel for team members, event photos, a page for all the members of the society and an events page.",
       project_image:
-        "https://res.cloudinary.com/df5hitkbj/image/upload/v1690757350/WhatsApp_Image_2023-07-31_at_04.17.32_abkeiw.jpg",
+        "https://res.cloudinary.com/df5hitkbj/image/upload/v1716617099/Untitled_v2avco.png",
       project_tech: "HTML, CSS, JavaScript, React, ThreeJS",
       project_link: "https://github.com/pradeeptosarkar/NSCC-BPIT-Website",
     },
