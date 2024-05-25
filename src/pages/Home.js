@@ -6,10 +6,10 @@ const Home = () => {
 
   const [text] = useTypewriter({
     words: [
-      "I build things for the web",
-      "I explore new technologies",
-      "I practice problem-solving",
-      "I love building communities"
+      "build things for the web",
+      "explore new technologies",
+      "practice problem-solving",
+      "love building communities"
     ],
     loop: true,
     typeSpeed: 40,
@@ -67,7 +67,7 @@ const Home = () => {
             }}
             variant="h2"
           >
-            {text}
+            I {text}
             <Cursor />
           </Typography>
           <Typography
