@@ -30,6 +30,16 @@ const data = {
   projects: [
 
     {
+      project_name: "SyncLab - A suite of project management, tracking and productivity applications",
+      project_live_link: "https://synclab.vercel.app/",
+      project_description:
+        "SyncLab is a collection of multiple full stack applications encompassing various use cases broadly covering software project management, collaboration, monitoring and tracking objectives for remote teams.",
+      project_image:
+        "https://res.cloudinary.com/df5hitkbj/image/upload/v1716613882/Untitled_gpt0te.png",
+      project_tech: "Next.js, MySQL, Clerk, Stripe, JQuery, GitHub API, Google Cloud API",
+      project_link: "https://github.com/Sync-Lab-2023/synclab-major-production-main",
+    },
+    {
       project_name: "Taskify - Documentation and Productivity",
       project_live_link: "https://taskify-omega.vercel.app/",
       project_description:
