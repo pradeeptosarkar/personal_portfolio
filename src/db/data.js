@@ -40,6 +40,16 @@ const data = {
       project_link: "https://github.com/pradeeptosarkar/taskify",
     },
     {
+      project_name: "EventScale - Event Management Simplified",
+      project_live_link: "https://eventscale.vercel.app/",
+      project_description:
+        "A full stack application to organize online/offline events, manage ticketing, guests, scheduling and related communications built using NextJS, Uploadthing, Prisma ORM and MongoDB.",
+      project_image:
+        "https://asset.cloudinary.com/df5hitkbj/80559c3a40e9b603f6e50bb73690e8a0",
+      project_tech: "Next.js, MongoDB, Prisma, TypeScript, Uploadthing",
+      project_link: "https://github.com/pradeeptosarkar/eventscale",
+    },
+    {
       project_name: "dotPackages - NPM Packages Manager",
       project_live_link: "https://dotpackages.netlify.app/",
       project_description:
