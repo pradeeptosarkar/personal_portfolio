@@ -1,7 +1,22 @@
 import { Grid, Link, Typography } from "@mui/material";
 import { Container } from "@mui/system";
+import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const Home = () => {
+
+  const [text] = useTypewriter({
+    words: [
+      "I build things for the web",
+      "I explore new technologies",
+      "I practice problem-solving",
+      "I love building communities"
+    ],
+    loop: true,
+    typeSpeed: 40,
+    deleteSpeed: 30,
+    delaySpeed: 2500,
+  });
+
   return (
     <Container
       id="home"
@@ -38,7 +53,7 @@ const Home = () => {
             Pradeepto Sarkar.
           </Typography>
           <Typography
-          className="typewriter"
+            className="typewriter"
             sx={{
               fontSize: {
                 xxs: "clamp(30px, 6vw, 40px)",
@@ -52,7 +67,8 @@ const Home = () => {
             }}
             variant="h2"
           >
-            I build things for the web
+            {text}
+            <Cursor />
           </Typography>
           <Typography
             sx={{
@@ -64,7 +80,7 @@ const Home = () => {
           >
             I help people make the world a better place through quality
             software. As a full-stack developer, I possess a wide range of
-            skills and expertise that allow me to create and maintain web 
+            skills and expertise that allow me to create and maintain web
             and other kind of applications.
           </Typography>
           <Link
