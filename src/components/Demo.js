@@ -42,6 +42,11 @@ const Demo = () => {
       num: "04",
       path: "#blog",
     },
+    {
+      name: "Community",
+      num: "05",
+      path: "#community",
+    },
   ];
 
   return (
