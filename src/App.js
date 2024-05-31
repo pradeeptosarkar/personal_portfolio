@@ -1,6 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./pages/About";
+import Blog from "./pages/Blog";
+import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
@@ -14,6 +16,8 @@ const App = () => {
       <About />
       <Experience />
       <Contact />
+      <Blog />
+      <Community />
       <Routes>
         <Route path="#home" element={<Home />} />
         <Route path="#about" element={<About />} />
