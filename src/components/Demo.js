@@ -33,20 +33,26 @@ const Demo = () => {
       path: "#experience",
     },
     {
-      name: "Contact",
+      name: "Projects",
       num: "03",
-      path: "#contact",
-    },
-    {
-      name: "Blog",
-      num: "04",
-      path: "#blog",
+      path: "#projects",
     },
     {
       name: "Community",
-      num: "05",
+      num: "04",
       path: "#community",
     },
+    {
+      name: "Blog",
+      num: "05",
+      path: "#blog",
+    },
+    {
+      name: "Contact",
+      num: "06",
+      path: "#contact",
+    },
+    
   ];
 
   return (

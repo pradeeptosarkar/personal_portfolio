@@ -9,8 +9,6 @@ import {
 } from "@mui/material";
 import { Container } from "@mui/system";
 import { Link } from "react-router-dom";
-/* import StarOutlineIcon from "@mui/icons-material/StarOutline";
-import ForkRightIcon from "@mui/icons-material/ForkRight"; */
 import data from "../db/data";
 import Form from "../components/Form";
 
@@ -32,7 +30,7 @@ const Contact = () => {
       <Typography
         variant="h6" sx={{ mr: 2, color: "#ccd6f6" }}
       >
-        <Typography variant="span" sx={{ color: "#64ffda" }}>03. {" "}</Typography>
+        <Typography variant="span" sx={{ color: "#64ffda" }}>06. {" "}</Typography>
         What's Next?
       </Typography>
       <Typography
@@ -62,15 +60,15 @@ const Contact = () => {
             sx={{
               fontFamily: "sans-serif",
               fontWeight: 300,
-              textAlign: "center",
+              textAlign: "justify",
               color: "#8892af",
               m: "auto",
               mr: { mmd: 3 },
               ml: { "2xl": 7 },
             }}
           >
-            I am currently searching for new job opportunities where I can apply
-            my skills and continue to develop as a professional. I am always
+            I am always on the lookout for new job and freelancing opportunities where I can apply
+            my skills and continue to develop as a professional. I am
             open to discussing new options and exploring how we can work
             together to achieve great things. Let's connect!
           </Typography>
@@ -165,7 +163,7 @@ const Contact = () => {
               Designed & Built by Pradeepto Sarkar
             </Link>
           </Typography>
-          </Box>
+        </Box>
       </footer>
     </Container>
   );

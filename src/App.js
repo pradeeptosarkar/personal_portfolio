@@ -1,12 +1,13 @@
 import { Routes, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import Community from "./pages/Community";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Home from "./pages/Home";
 import { Analytics } from "@vercel/analytics/react";
+import Blog from "./pages/Blog";
+import Projects from "./pages/Projects";
 
 const App = () => {
   return (
@@ -15,14 +16,18 @@ const App = () => {
       <Home />
       <About />
       <Experience />
-      <Contact />
-      <Blog />
+      <Projects />
       <Community />
+      <Blog />
+      <Contact />
       <Routes>
         <Route path="#home" element={<Home />} />
         <Route path="#about" element={<About />} />
-        <Route path="#contact" element={<Contact />} />
         <Route path="#experience" element={<Experience />} />
+        <Route path="#projects" element={<Projects />} />
+        <Route path="#community" element={<Community />} />
+        <Route path="#blog" element={<Blog />} />
+        <Route path="#contact" element={<Contact />} />
       </Routes>
       <Analytics />
     </div>
